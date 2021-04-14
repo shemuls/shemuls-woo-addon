@@ -1,0 +1,66 @@
+.s-woo-product-area{
+	width: 100%;
+	font-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+	display: flex;
+	flex-wrap: wrap; /*Recommended property*/
+	justify-content: space-between;
+}
+.s-woo-product-area .s-woo-product-col-3{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.s-woo-product-area .s-woo-product{
+	position: relative;
+}
+.s-woo-product-area .s-woo-on-sale {
+    position: absolute;
+    background: #fff;
+    padding: 3px 10px;
+    margin: 10px;
+    z-index: 3;
+    display: block;
+}
+.s-woo-product-area h3.s-woo-product-tile {
+    color: #090505;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.s-woo-product-area p.s-woo-product-short-desc {
+    color: #090505;
+    font-size: 16px;
+}
+
+.s-woo-product-area span.woocommerce-Price-amount.amount {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+    
+}
+.s-woo-product-area ins {
+	text-decoration: none;
+	color: #FBAA27;
+}
+.s-woo-product-area del span.woocommerce-Price-amount.amount{
+	color: #ADADAD !important;
+}
+.s-woo-product-area .s-woo-cart-btn a.button {
+    background: #000;
+    color: #fff;
+    padding: 16px;
+    display: block;
+    border-radius: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .4s;
+    font-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+}
+.s-woo-product-area .s-woo-cart-btn a.button:hover{
+	background: #FBAA27;
+}
+.s-woo-product-area .s-woo-cart-btn a.added_to_cart.wc-forward{
+	display: none !important;
+}
